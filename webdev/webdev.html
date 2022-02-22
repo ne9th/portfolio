@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>neath | web dev</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+
+<body>
+  <div class="nav">
+    <h1 class="title">web dev</h1>
+    <div id="logo">
+      <a href="../index.html"><img class="logo-img" src="../images/blue-logo.png"></a>
+    </div>
+    <ul>
+      <li><a href="../uxui/uxui.html">ux/ui</a></li>
+      <li><a href="../design/design.html">design</a></li>
+      <li><a href="../hobbies/hobbies.html">hobbies</a></li>
+      <li><a href="../about.html">about</a></li>
+    </ul>
+  </div>
+
+  <!---  gallery  --->
+  <div class="gallery webdev-gallery">
+
+    <!-- magic 8 ball -->
+    <div class="gallery-item" id = "eight-ball">
+      <div class ="back">
+          <img class="gallery-img" src="images/8ball/cover.png">
+      </div>
+
+      <div class ="front align-center" onclick="toggle8BallPopup()">
+          <h3 class="gallery-header">eight ball</h3>
+          <p class="gallery-text">HTML, CSS, D3.js</p>
+          <p class="gallery-text">classwork</p>
+      </div>
+    </div>
+
+    <!-- plastic 2048 -->
+    <div class="gallery-item" id = "plastic">
+      <div class ="back">
+        <img class="gallery-img" src="images/plastic/cover.png">
+      </div>
+
+      <div class ="front align-center" onclick="togglePlasticPopup()">
+          <h3 class="gallery-header">Plastic2048</h3>
+          <p class="gallery-text">HTML, CSS, JS</p>
+          <p class="gallery-text">classwork</p>
+      </div>
+    </div>
+
+    <!-- personal website -->
+    <div class="gallery-item" id = "portfolio">
+      <div class ="back">
+        <img class="gallery-img" src="n.png">
+      </div>
+      <div class ="front align-center">
+          <h3 class="gallery-header">Personal Website</h3>
+          <p class="gallery-text">HTML, CSS, JS</p>
+          <p class="gallery-text">this very website :)</p>
+
+      </div>
+    </div>
+
+    <div class="footer">
+    </div>
+  </div>
+
+  <!-------  8 ball popup  ------->
+  <div class="popup" id="eightball-popup">
+    <div class="overlay"></div>
+    <div class="close-button" onclick="toggle8BallPopup()">×</div>
+    <div class="content">
+      <div class="title-align">
+        <h1 class="project-title">eight ball</h1>
+        <p class="general-cap"> HTML, CSS, D3.js </p>
+      </div>
+
+      <h1 class="date">April 2020</h1>
+      <div class="popup-center">
+        <img class="gif" src="images/8ball/eightball.gif" alt="eight ball gif">
+      </div>
+
+      <p class="general-text"> As a final project for an introductory course to front end development,
+        students were asked to work on their own to produce a creative application for the web
+        using D3.js.</p>
+      <p class="general-text"> Inspired by the Magic Eight Ball I used to carry around with me, I decided to
+        create a web-based version of the novelty toy for this project.</p>
+
+
+      <!--------- footer --------->
+      <div>
+        <p class="popup-footer popup-center">Monineath Heng | Programming Basics</p>
+      </div>
+    </div>
+  </div>
+
+  <!-------  plastic popup  ------->
+  <div class="popup" id="plastic-popup">
+    <div class="overlay"></div>
+  <div class="close-button" onclick="togglePlasticPopup()">×</div>
+  <div class="content">
+    <div class="title-align">
+      <h1 class="project-title">Plastic2048</h1>
+      <p class="general-cap"> HTML, CSS, JS </p>
+    </div>
+
+    <h1 class="date">April 2020</h1>
+    <div class="popup-center">
+      <img class="gif" src="images/plastic/plastic2048.gif" alt="plastic2048 gif">
+    </div>
+    <p class="general-text"> As a final project for an experience and interaction course,
+      students were asked to work on their own to produce a screen-based experience,
+      preferably with interactivity.</p>
+    <p class="general-text"> The main motivation for this project is the sad fact that
+      our oceans and marine life are choking on plastic. To draw the connection between
+      our everyday action and their impacts on the world, I decided to use an interactive
+      game as a medium. Plastic2048 is inspired by the game
+      <a target="_blank" href="https://play2048.co/">2048</a>, which was created by Gabriele Cirulli.</p>
+
+    <!--------- footer --------->
+    <div>
+      <p class="popup-footer popup-center">Monineath Heng | Experience and Interaction</p>
+    </div>
+
+  </div>
+
+    <script src="../inner_logo_change.js"></script>
+    <script src="scripts.js"></script>
+
+
+  </body>
+</html>
+
+<!-- get rid of a tags
+-
+-->

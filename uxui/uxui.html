@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>neath | ux/ui</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+  <div class="nav">
+    <h1 class="title">ux/ui</h1>
+    <div id="logo">
+      <a href="../index.html"><img class="logo-img" src="../images/blue-logo.png"></a>
+    </div>
+    <ul>
+      <li><a href="../webdev/webdev.html">web dev</a></li>
+      <li><a href="../design/design.html">design</a></li>
+      <li><a href="../hobbies/hobbies.html">hobbies</a></li>
+      <li><a href="../about.html">about</a></li>
+    </ul>
+  </div>
+
+  <!---  gallery  --->
+  <div class="gallery uxui-gallery">
+    <!-- inscan -->
+    <div class="gallery-item" id = "inscan">
+      <div class ="back">
+        <img class="gallery-img" src="images/inscan/cover.png">
+      </div>
+      <div class ="front align-center" onclick="toggleInscanPopup()">
+        <h3 class="gallery-header">inScan</h3>
+        <p class="gallery-text">classwork</p>
+      </div>
+    </div>
+
+    <!-- my dictionary -->
+    <div class="gallery-item" id = "dict">
+      <div class ="back">
+        <img class="gallery-img" src="images/dict/cover.png">
+      </div>
+      <div class ="front align-center" onclick="toggleDictPopup()">
+        <h3 class="gallery-header">My Dictionary</h3>
+        <p class="gallery-text">classwork</p>
+      </div>
+    </div>
+
+    <!-- lost&found -->
+    <div class="gallery-item" id = "lostfound">
+      <div class ="back">
+        <img class="gallery-img" src="images/lost&found/cover.png">
+      </div>
+      <div class ="front align-center" onclick="toggleLostFoundPopup()">
+        <h3 class="gallery-header">lost & found</h3>
+        <p class="gallery-text">classwork</p>
+      </div>
+    </div>
+  </div>
+
+  <!-------  inscan popup  ------->
+  <div class="popup" id="inscan-popup">
+    <div class="overlay"></div>
+    <div class="close-button" onclick="toggleInscanPopup()">×</div>
+    <div class="content">
+      <div class="title-align">
+        <h1 class="project-title">inScan</h1>
+        <p class="general-cap">Figma, Illustrator</p>
+      </div>
+
+      <h1 class="date">Fall 2020</h1>
+      <div class="popup-center">
+        <img src="images/inscan/1.png" alt="mobile ui">
+      </div>
+
+      <!--------- description --------->
+      <p class="left-text" id="inscan-text">As a semester-long project for an interaction design course, students were asked to
+        design a web-based solution to a unique problem that they face in their life. </p>
+
+      <p class="left-text">Since I have 2 siblings who are allergic to certain ingredients in food/medication, I decided to design a website that
+        would help them with their allergies.</p>
+
+      <p class="left-text">To arrive at the final prototype, I conducted interviews, benchmarked against existing service,
+      created personas, defined user's roles and goals, and designed branding.</p>
+
+      <!--------- view prototype --------->
+      <div>
+        <a id="inscan-button" target ="_blank" href="https://www.figma.com/proto/JNRdYjaAOZP2w7HnH4Gz5A/inScan?node-id=264%3A1&scaling=scale-down&page-id=264%3A0">view clickable prototype</a>
+      </div>
+
+      <!--------- footer --------->
+      <div>
+        <h5 class="popup-footer popup-center">Monineath Heng | interaction design 1</h5>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-------  dictionary popup  ------->
+  <div class="popup" id="dict-popup">
+    <div class="overlay"></div>
+    <div class="close-button" onclick="toggleDictPopup()">×</div>
+    <div class="content">
+      <div class="title-align">
+        <h1 class="project-title">My Dictionary</h1>
+        <p class="general-cap">Figma</p>
+      </div>
+
+      <h1 class="date">Feb 2021</h1>
+      <div class="popup-center">
+        <img src="images/dict/1.png" alt="mobile ui">
+      </div>
+
+      <!--------- description --------->
+      <p class="left-text">As a project for an interaction design course, students
+        were asked to redesign an existing app.</p>
+
+      <!--------- original design --------->
+      <h1 class="section-title top-padding">The Free Dictionary - original design</h1>
+      <div class="popup-center">
+        <img src="images/dict/bad.png" alt="original design">
+      </div>
+
+      <!--------- redesign --------->
+      <h1 class="section-title top-padding">Google Translate - good example</h1>
+      <div class="popup-center">
+        <img src="images/dict/good.png" alt="a good example for the design">
+      </div>
+
+      <!--------- color and typography --------->
+      <h1 class="section-title top-padding">color & typography</h1>
+      <div class="popup-center">
+        <img src="images/dict/color.png" alt="color and typography">
+      </div>
+
+      <!--------- final ui --------->
+      <h1 class="section-title top-padding">My Dictionary - redesigned</h1>
+      <div class="popup-center">
+        <img src="images/dict/2.png" alt="final ui">
+      </div>
+
+
+      <!--------- footer --------->
+      <div>
+        <h5 class="popup-footer popup-center">Monineath Heng | interaction design 2</h5>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-------  Lost and Found popup  ------->
+  <div class="popup" id="lostfound-popup">
+    <div class="overlay"></div>
+    <div class="close-button" onclick="toggleLostFoundPopup()">×</div>
+    <div class="content">
+
+      <div class="title-align">
+        <h1 class="project-title">lost and found</h1>
+        <p class="general-cap">Figma, Illustrator, Photoshop</p>
+      </div>
+      <h1 class="date">April 2021</h1>
+
+      <div class="popup-center">
+        <img src="images/lost&found/1.png" alt="mobile ui">
+      </div>
+
+      <!--------- description --------->
+      <p class="left-text">As a final project for an interaction design course, students
+      were asked to conduct research and come up with an application that solves a problem for a certain population.</p>
+
+      <p class="left-text">To challenge myself, I decided to choose the elderly population as my target audience. Since
+      we're all affected by COVID-19, the only person I can visit at the time was my grandma. So I went and talked to her and
+      saw that she was having problems with misplacing things and forgetting where things are.</p>
+
+      <p class="left-text">So with my grandma in mind, Lost & Found was born.</p>
+
+      <!--------- ui spec --------->
+      <h1 class="section-title top-padding">initial ui spec</h1>
+      <div class="popup-center">
+        <img src="images/lost&found/2.png" alt="ui spec">
+      </div>
+
+      <!--------- color & typography --------->
+      <h1 class="section-title top-padding">color & typography</h1>
+      <div class="flex">
+        <div class="popup-center inline-align">
+          <img src="images/lost&found/color1.png" alt="color scheme">
+          <p class="small-cap">#ffde00</p>
+        </div>
+        <div class="popup-center inline-align">
+          <img src="images/lost&found/color2.png" alt="color scheme">
+          <p class="small-cap">#000000</p>
+        </div>
+        <div class="popup-center inline-align">
+          <img src="images/lost&found/color3.png" alt="color scheme">
+          <p class="small-cap">#ffffff</p>
+        </div>
+        <div class="popup-center halfwidth">
+          <img src="images/lost&found/type.png" alt="typography">
+        </div>
+      </div>
+
+      <!--------- final ui --------->
+      <h1 class="section-title top-padding">final ui</h1>
+      <div class="popup-center top-padding">
+        <img src="images/lost&found/3.png" alt="final ui">
+      </div>
+
+      <!--------- footer --------->
+      <div>
+        <h5 class="popup-footer popup-center">Monineath Heng | interaction design 2</h5>
+      </div>
+
+
+
+      <!-- end of content -->
+      </div>
+
+    </div>
+
+
+    <script src="../inner_logo_change.js"></script>
+    <script src="scripts.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+  </html>
