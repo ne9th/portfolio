@@ -1,0 +1,108 @@
+/*-------------- Grid - Details Page --------------*/
+
+.details-grid {
+    display: grid;
+    place-items: center;
+    column-gap: 1em;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 10vh auto;
+    padding-top: 2vh;
+}
+
+.details-grid .neath.logo {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.details-grid .mainContent {
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+.details-grid .description {
+    grid-column: 2;
+    grid-row: 3 ;
+}
+
+.details-grid .details {
+    grid-column: 1 / 3;
+    grid-row: 4 / 8 ;
+}
+
+.details-grid footer {
+    grid-column: 2;
+    grid-row: 8 ;
+}
+
+/*---- Header - Details Page ----*/
+
+.details-header {
+    margin-top: 10vh;
+}
+
+.main-img img{
+    padding-top: 5vh;
+    width: 80%;
+}
+
+.details-header .prev {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.6em 1.2em 0.6em 0;
+    border-color: transparent black transparent transparent;
+}
+
+.details-header .next {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.6em 0 0.6em 1.2em;
+    border-color: transparent transparent transparent black;
+}
+
+.prev.inactive {
+    border-color: transparent gray transparent transparent;
+}
+
+.next.inactive {
+    border-color: transparent transparent transparent gray;
+}
+
+/*---- Description Grid - Details Page ----*/
+
+.des-grid {
+    margin-top: 15vh;
+    display: grid;
+    grid-template-areas: 
+    "type tools"
+    "des lesson";
+    column-gap: 10em;
+    row-gap: 5em;
+}
+
+.project-type {
+    grid-area: type;
+}
+
+.project-tools {
+    grid-area: tools;
+}
+
+.project-des {
+    grid-area: des;
+}
+
+.project-lesson {
+    grid-area: lesson;
+}
+
+/*---- Details Section - Details Page ----*/
+
+.details {
+    margin: 10vh 0;
+}
+
+.details img {
+    width: 100vw;
+}

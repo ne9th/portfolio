@@ -19,26 +19,29 @@ export const ProjectDetail = () => {
       }, [id]);
 
     return(
-        <div className="main-container">
+        <div className="d-flex flex-column align-items-center">
             <div className="details-grid">
                 <Link to='/'>
-                    <div className="neath-logo">
+                    <div className="neath-logo f-syncopate">
                         <h4>neath</h4>
                     </div>
                 </Link>
-                <div className="mainContent">
-                    {<MainContent/>}
+                <div className="mainContent w-100">
+                    {<MainContent project={project}/>}
                 </div>
                 <div className="description">
-                    {<Description/>}
+                    {<Description project={project}/>}
                 </div>
-                <div className="details">
-                    {<Details/>}
-                </div>
-                <footer>
-                    Monineath Heng
-                </footer>
             </div>
+            <div className="details">
+                {<Details project={project}/>}
+            </div>
+            <footer>
+                <div className="toTop">
+                    <p>top</p>
+                </div>
+                <h5 className="text-center f-prompt fw-light">Monineath Heng<br/>© 2022</h5>
+            </footer>
         </div>
     )
 }
