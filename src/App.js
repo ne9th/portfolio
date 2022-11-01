@@ -9,6 +9,7 @@ import { AboutMe } from './components/AboutMe';
 AOS.init();
 
 function App() {
+
   return (
     <BrowserRouter>
       <Routes>

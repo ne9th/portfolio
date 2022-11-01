@@ -2,12 +2,17 @@ import React from 'react';
 import { ScrollingElements } from './ScrollingElements';
 import { About } from './About';
 import { Link } from 'react-router-dom';
+import { Nav } from '../Nav';
 
 export const LandingPage = () => {
     
     return(
         <div>
             <section>
+                <div>
+                    {<Nav/>}
+                    <h3 className='f-meaculpa logo'>N</h3>
+                </div>
                 <div className="projects-bg d-flex justify-content-center align-items-center">
                     <h1>
                         <span id='n'>n</span>
@@ -21,6 +26,7 @@ export const LandingPage = () => {
                     <ScrollingElements/>
                 </div>
             </section>
+
             <section>
                 <div className='d-flex flex-column home-about align-items-center justify-content-center'>
                     <About/> 

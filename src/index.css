@@ -48,3 +48,13 @@ a {
 .secondary-btn:hover {
   text-shadow: 0 0 0.1em lightblue;
 }
+
+.no-pointer {
+  pointer-events: none;
+}
+
+.logo {
+  font-size: max(3vw, 30px);
+  margin: 2em;
+  padding-left: 2vw;;
+}

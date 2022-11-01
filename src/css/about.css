@@ -1,3 +1,74 @@
 .img-name img {
     width: 20%;
 }
+
+/*--------------- nav header ---------------*/
+
+.hanging-nav {
+    position: relative;
+    top:0;
+    gap: 2vw;
+}
+
+.hanging-nav .vertical-line {
+    height: 4em;
+    border-left: 1.5px solid black;
+}
+
+.nav-item {
+    border: 1.5px solid black;
+    padding: 0.5em;
+    border-radius: 1em;
+    backdrop-filter: blur(5px);
+}
+
+.nav-item.active {
+    background-color: white;
+}
+
+.nav-item h5 {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+
+/* sm screen */
+@media screen and (max-width: 575.98px) {
+    .hanging-nav {
+        gap: 5vw;
+    }
+
+    .nav-item {
+        padding: 0.3em;
+    }
+
+    .nav-item h5 {
+        font-size: 0.8em;
+    }
+}
+
+/* md screen */
+@media screen and (max-width: 767.98px) {
+    .hanging-nav {
+        gap: 3vw;
+    }
+
+    .nav-item {
+        padding: 0.3em;
+        border-width: 1px;
+    }
+
+    .nav-item h5 {
+        font-size: 0.9em;
+    }
+}
+
+
+/* lg screen */
+@media (max-width: 991.98px) {  }
+
+/* xl screen */
+@media (max-width: 1199.98px) {  }
+
+/* xxl screen */
+@media (max-width: 1399.98px) {  }
