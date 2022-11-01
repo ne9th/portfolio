@@ -41,7 +41,21 @@
   font-family: "syncopate";
   font-weight: bold;
   font-size: 12vw;
-  letter-spacing: 0.02em;
+}
+
+.projects-bg .cursive {
+  font-family: 'Mea Culpa';
+  font-weight: normal;
+  font-size: 26vw;
+  margin-left: -2.2vw;
+}
+
+.projects-bg #n {
+  margin-left: -2vw;
+}
+
+.reduce-kerning {
+  letter-spacing: -1.7vw;
 }
 
 /*---- Project Divs - Home Page ----*/
@@ -119,7 +133,7 @@
 @media screen and (max-width: 576px) {
   .hover-container {
     text-align: center;
-    padding: 1em 1.7em;
+    padding: 1.2em 1.7em;
     border: 0.1em solid black;
     background-color: pink;
     width: auto;
@@ -129,25 +143,30 @@
 }
   
 .hover-container > h4 {
-  margin: 0.6em;
-  margin-bottom: 0;
-  font-weight: bold;
-  font-size: max(1.2vw, 14px);
+  margin: 0 0.4em;
+  font-size: max(2.6vw, 20px);
 }
 
 .hover-container > p {
   margin: 0;
-  margin-top: 0.2rem;
+  margin-top: -0.3vw;
   font-size: max(1.2vw, 14px);
+  font-weight: lighter;
 }
 
 /*---- Brief About Me - Home Page ----*/
 
 .home-about {
+  margin: 30vh 0;
+}
+
+.brief-about {
+  margin-bottom: 1vh;
   grid-column: 2;
   grid-row: 7;
 }
 
-.home-about > p {
+.brief-about > p {
   width: 60vw;
 }
+

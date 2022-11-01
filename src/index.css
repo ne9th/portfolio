@@ -27,9 +27,24 @@ a {
 /*-- General Styles --*/
 
 .f-prompt {
-  font-family: 'prompt';
+  font-family: 'prompt', sans-serif;
 }
 
 .f-syncopate {
-  font-family: 'syncopate';
+  font-family: 'syncopate', sans-serif;
+}
+
+.f-meaculpa {
+  font-family: 'Mea Culpa', cursive;
+}
+
+.f-pinyon {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.secondary-btn {
+  font-size: max(2vw, 20px);
+}
+.secondary-btn:hover {
+  text-shadow: 0 0 0.1em lightblue;
 }

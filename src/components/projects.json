@@ -1,7 +1,7 @@
 [
     {
         "id": "project1",
-        "title": "1st project",
+        "title": "1st Project",
         "type_path": "design",
         "type": "project type",
         "cover_img": "https://source.unsplash.com/random/800x800",
@@ -15,7 +15,7 @@
     },
     {
         "id": "project2",
-        "title": "a very long project",
+        "title": "A Very Long Project",
         "type_path": "design",
         "type": "project type",
         "cover_img": "https://source.unsplash.com/random/600x400",
@@ -30,7 +30,7 @@
     },
     {
         "id": "project3",
-        "title": "landmark poster",
+        "title": "Landmark Poster",
         "type_path": "design",
         "type": "project type",
         "cover_img": "https://source.unsplash.com/random/600x600",

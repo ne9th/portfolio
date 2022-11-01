@@ -13,9 +13,9 @@ const projectsDiv = projects.map((project) =>
             <img src={project.cover_img} alt="" 
                 data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-once="true"/>
             {/* details on hover */}
-            <div className="hover-container d-flex flex-column align-items-center justify-content-center">
-                <h4 className='f-syncopate'>{project.title}</h4>
-                <p className='f-prompt'>{project.type}<br/>{project.date}</p>
+            <div className="hover-container d-flex flex-column justify-content-center">
+                <h4 className='f-pinyon'>{project.title}</h4>
+                <p className='f-prompt'>{project.type} 	• {project.date}</p>
             </div>
         </div>
     </Link>
