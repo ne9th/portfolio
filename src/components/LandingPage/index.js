@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { ScrollingElements } from './ScrollingElements';
 import { About } from './About';
 import { Link } from 'react-router-dom';
 import { Nav } from '../Nav';
+import {motion as m, useScroll, useTransform} from 'framer-motion';
 
 export const LandingPage = () => {
-    
+
     return(
         <div>
             <section>
                 <div>
                     {<Nav/>}
-                    <h3 className='f-meaculpa logo'>N</h3>
                 </div>
                 <div className="projects-bg d-flex justify-content-center align-items-center">
                     <h1>
@@ -22,13 +22,13 @@ export const LandingPage = () => {
                         <span className='cursive'>h</span>
                     </h1>
                 </div>
-                <div className='projects'>
-                    <ScrollingElements/>
-                </div>
+                <ScrollingElements/>
             </section>
 
             <section>
-                <div className='d-flex flex-column home-about align-items-center justify-content-center'>
+                <div className='d-flex flex-column home-about align-items-center justify-content-center'
+                data-aos="fade-up" data-aos-duration="1000"
+                data-aos-anchor-placement="bottom bottom">
                     <About/> 
                     <Link to="/aboutme">
                         <div className="secondary-btn-container">
