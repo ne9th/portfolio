@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -43,7 +47,7 @@ a {
 }
 
 .secondary-btn {
-  font-size: max(2vw, 20px);
+  font-size: max(1.5em, 20px);
 }
 .secondary-btn:hover {
   text-shadow: 0 0 0.1em lightblue;
@@ -85,4 +89,14 @@ a {
 .nav-item h5 {
   font-size: 1em;
   margin-bottom: 0;
+}
+
+/*--------------- footer ---------------*/
+
+.footer {
+  padding: 6vw 0 4vw 0;
+}
+
+.footer h6 {
+  font-size: max(1vw, 14px);
 }
