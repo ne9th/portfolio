@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import projects from '../projects.json'
+import  { projects } from '../projects.js'
 import { MainContent } from "./MainContent";
 import { Description } from "./Description";
 import { Details } from "./Details";

@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './css/home.css';
 import './css/details.css';
-import './css/about.css'
+import './css/about.css';
+import './css/hobbies.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

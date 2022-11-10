@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import projects from '../projects.json';
+import { projects } from '../projects.js';
 import Element from './Element';
 
 
