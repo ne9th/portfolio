@@ -26,9 +26,7 @@ export const LandingPage = () => {
             </section>
 
             <section>
-                <div className='d-flex flex-column home-about align-items-center justify-content-center'
-                data-aos="fade-up" data-aos-duration="1000"
-                data-aos-anchor-placement="bottom bottom">
+                <div className='d-flex flex-column home-about align-items-center justify-content-center'>
                     <About/> 
                     <Link to="/aboutme">
                         <div className="secondary-btn-container">

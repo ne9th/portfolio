@@ -4,8 +4,6 @@ import { motion as m, useScroll, useTransform } from 'framer-motion';
 
 export default function Element({project}) {
     console.log("project", project);
-    // const { scrollYProgress } = useScroll();
-    
 
     let ref = useRef();
     let { scrollYProgress } = useScroll({
@@ -22,21 +20,19 @@ export default function Element({project}) {
             animate={{opacity: 1}}
             style={{y:y}}
             whileHover={{
-                scale: 1.2
+                scale: 1.1
             }}
             transition={{ duration: 0.3}}
-            ref={ref} 
-            // style={{ opacity }}
+            // ref={ref} 
             >
-
             {/* cover images */}
-            <img src={project.cover_img} alt="" />
+            <img ref={ref} src={project.cover_img} alt="" />
 
             {/* details on hover */}
-            <div className="hover-container d-flex flex-column justify-content-center">
+            {/* <div className="hover-container d-flex flex-column justify-content-center">
                 <h4 className='f-pinyon'>{project.title}</h4>
                 <p className='f-prompt'>{project.type} 	• {project.date}</p>
-            </div>
+            </div> */}
         </m.div>
     </Link>
   )
