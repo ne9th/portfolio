@@ -4,6 +4,7 @@ import  { projects } from '../projects.js'
 import { MainContent } from "./MainContent";
 import { Description } from "./Description";
 import { Details } from "./Details";
+import {motion as m} from 'framer-motion';
 
 export const ProjectDetail = () => {
 
@@ -21,12 +22,12 @@ export const ProjectDetail = () => {
     return(
         <div className="d-flex flex-column align-items-center">
             <div className="details-grid">
-                <Link to='/'>
-                    <div className="neath-logo f-syncopate">
-                        <h4>neath</h4>
-                    </div>
+                <Link to='/' className="logo-wrapper">
+                    <m.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration: 0.6}}>
+                        <h3 className='f-meaculpa logo'>N</h3>
+                    </m.div>
                 </Link>
-                <div className="mainContent w-100">
+                <div className="mainContent">
                     {<MainContent project={project}/>}
                 </div>
                 <div className="description">

@@ -1,15 +1,16 @@
 import React, { useRef } from 'react';
 import { projects } from '../projects.js';
 import Element from './Element';
+import {motion as m} from 'framer-motion';
 
 
 export const ScrollingElements = () => {
 
     return(
         <div className='projects'>
-            <div>
-                        <h3 className='f-meaculpa logo'>N</h3>
-                    </div>
+            <m.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration: 0.8}}>
+                <h3 className='f-meaculpa logo'>N</h3>
+            </m.div>
             <div className="neath-header text-center f-prompt">
                 <h3>Designer + Developer</h3>
             </div>

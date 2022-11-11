@@ -6,13 +6,21 @@ import './css/details.css';
 import './css/about.css';
 import './css/hobbies.css';
 import App from './App';
+import { BrowserRouter as Router } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+
+// to scroll to top on route change
+import ScrollToTop from "./helpers/ScrollToTop";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  <Router>
+    <ScrollToTop/>
     <App />
-  </React.StrictMode>
+  </Router>
+    
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

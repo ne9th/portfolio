@@ -4,9 +4,7 @@ import {motion as m, } from 'framer-motion';
 
 export const Nav = () => {
     const ref = useRef();
-
     const loc = useLocation();
-    console.log('pathname', loc.pathname);
 
     const onHover = { y:20,
         transition:{
@@ -15,13 +13,11 @@ export const Nav = () => {
             ease:"backOut"
     }};
 
-    
-
   return (
     <div className="nav-header d-flex justify-content-between fixed-top">
         
         <Link to="/" className={`${loc.pathname === "/" ? "opacity-0 no-pointer" : ""}`}>
-            <h3 className='f-meaculpa logo logo-margin'>N</h3>
+            <h3 className='f-meaculpa logo'>N</h3>
         </Link>
         <m.div 
         initial={{ y: -130}} animate={{y:-50}} 
@@ -32,12 +28,12 @@ export const Nav = () => {
             ease: "easeOut"
         }}
         className="hanging-nav d-flex text-center me-5 pe-5">
-            <Link to="/aboutme" >
+            <Link to="/about" >
                 <m.div 
                     whileHover={onHover}
                     className='nav-item-wrapper d-flex flex-column align-items-center'>
                     <div className='vertical-line'/>
-                    <div ref={ref} className={`nav-item ${loc.pathname === "/aboutme" ? "active" : ""}`}>
+                    <div ref={ref} className={`nav-item ${loc.pathname === "/about" ? "active" : ""}`}>
                         <h5>A<br/>B<br/>O<br/>U<br/>T</h5>
                     </div>
                 </m.div>

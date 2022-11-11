@@ -6,7 +6,7 @@ import { Footer } from '../Footer';
 import { Nav } from '../Nav';
 
 
-export const AboutMe = () => {
+export const About = () => {
   return (
     <div className='about-page'>
         {<Nav/>}

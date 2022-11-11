@@ -1,25 +1,23 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import AOS from 'aos';
+import { Route, Routes } from 'react-router-dom';
 import 'aos/dist/aos.css';
 import { LandingPage } from './components/LandingPage';
 import { ProjectDetail } from './components/ProjectDetail';
-import { AboutMe } from './components/AboutMe';
+import { About } from './components/About';
 import { Hobbies } from './components/Hobbies';
-AOS.init();
 
 function App() {
 
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
         <Route path="/:projectType/:id" element={<ProjectDetail/>}/>
-        <Route path="/aboutme" element={<AboutMe/>}/>
+        <Route path="/about" element={<About/>}/>
         <Route path="/hobbies" element={<Hobbies/>}/>
       </Routes>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
 

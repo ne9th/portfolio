@@ -11,7 +11,7 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "next_project": "/design/project2",
+        "next_project": "/webdev/portfolio21",
         "speed": 2
     },
     {
@@ -26,8 +26,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project1",
-        "next_project": "/design/project3",
+        "prev_project": "/design/lp",
+        "next_project": "/design/pantone",
         "speed": 2.5
     },
     {
@@ -42,7 +42,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/webdev/portfolio21",
+        "next_project": "/uxui/nonblue",
         "speed": 4
     },
     {
@@ -57,7 +58,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/design/pantone",
+        "next_project": "/uxui/inscan",
         "speed": 2.5
     },
     {
@@ -72,7 +74,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/uxui/nonblue",
+        "next_project": "/webdev/plastic2048",
         "speed": 4
     },
     {
@@ -87,7 +90,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/uxui/inscan",
+        "next_project": "/webdev/portfolio22",
         "speed": 3
     },
     {
@@ -102,7 +106,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/design/plastic2048",
+        "next_project": "/design/fromme",
         "speed": 4
     },
     {
@@ -117,7 +122,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/webdev/portfolio22",
+        "next_project": "/design/mfa",
         "speed": 2.5
     },
     {
@@ -132,7 +138,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/design/fromme",
+        "next_project": "/uxui/lostfound",
         "speed": 4
     }, 
     {
@@ -147,7 +154,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/design/mfa",
+        "next_project": "/design/typeposter",
         "speed": 2
     },
     {
@@ -162,7 +170,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/uxui/lostfound",
+        "next_project": "/design/infodesign",
         "speed": 2
     },
     {
@@ -177,7 +186,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/design/typeposter",
+        "next_project": "/design/remembering",
         "speed": 3
     },
     {
@@ -192,7 +202,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/design/infodesign",
+        "next_project": "/design/serviceday",
         "speed": 4
     },
     {
@@ -207,7 +218,8 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/design/remembering",
+        "next_project": "/design/bbg",
         "speed": 3
     },
     {
@@ -222,7 +234,7 @@ export const projects = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod. Aenean non nulla eleifend, viverra eros ac, pulvinar lacus. In enim lorem, elementum in posuere vitae, consectetur at metus. Donec ac nisi tortor.",
         "lesson": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nibh nec ligula fringilla euismod.",
         "link": "for web dev projects",
-        "prev_project": "/design/project2",
+        "prev_project": "/design/serviceday",
         "speed": 4
     },
 ]

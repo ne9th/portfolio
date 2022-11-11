@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { motion as m, useScroll, useTransform } from 'framer-motion';
 
 export default function Element({project}) {
-    console.log("project", project);
 
     let ref = useRef();
     let { scrollYProgress } = useScroll({
@@ -14,9 +13,9 @@ export default function Element({project}) {
     const y = useTransform(scrollYProgress, [0, 1], [0, 100 * project.speed])
 
   return (
-    <Link className="home-project" to={`/${project.type_path}/${project.id}`}>
+    <Link key={project.id} className="home-project" to={`/${project.type_path}/${project.id}`}>
         <m.div
-            initial={{opacity: 0}}
+            initial={{opacity: 1}}
             animate={{opacity: 1}}
             style={{y:y}}
             whileHover={{

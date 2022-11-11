@@ -1,9 +1,7 @@
 import React, { useRef } from 'react';
 import { ScrollingElements } from './ScrollingElements';
-import { About } from './About';
-import { Link } from 'react-router-dom';
+import { HomeAbout } from './HomeAbout';
 import { Nav } from '../Nav';
-import {motion as m, useScroll, useTransform} from 'framer-motion';
 
 export const LandingPage = () => {
 
@@ -24,16 +22,8 @@ export const LandingPage = () => {
                 </div>
                 <ScrollingElements/>
             </section>
-
             <section>
-                <div className='d-flex flex-column home-about align-items-center justify-content-center'>
-                    <About/> 
-                    <Link to="/aboutme">
-                        <div className="secondary-btn-container">
-                            <h3 className='f-pinyon secondary-btn m-0'>Read More</h3>
-                        </div>
-                    </Link>  
-                </div>
+                <HomeAbout/>
             </section>
             <footer>
                 <h4 className='f-syncopate fw-bold text-center'>Monineath Heng</h4>

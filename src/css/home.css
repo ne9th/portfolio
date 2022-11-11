@@ -261,7 +261,7 @@ want the logo stay fixed on the page) ----*/
 /*---- Brief About Me - Home Page ----*/
 
 .home-about {
-  margin: 30vh 0;
+  margin: 10vh 0 40vh 0;
 }
 
 .brief-about {
@@ -271,6 +271,7 @@ want the logo stay fixed on the page) ----*/
 }
 
 .brief-about > p {
-  width: 60vw;
+  font-size: 1.2rem;
+  width: 50vw;
 }
 
