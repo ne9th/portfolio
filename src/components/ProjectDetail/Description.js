@@ -16,7 +16,7 @@ export const Description = ({project}) => {
         <h4 className='f-prompt fw-light'>{project.description}</h4>
       </div>
       <div className="project-lesson">
-        <h2 className='f-syncopate fw-bold'>Main Lesson I learned</h2>
+        <h2 className='f-syncopate fw-bold'>What I learned</h2>
         <h4 className='f-prompt fw-light'>{project.lesson}</h4>
       </div>
     </div>

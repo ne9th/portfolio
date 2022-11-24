@@ -13,7 +13,7 @@ export default function Element({project}) {
     const y = useTransform(scrollYProgress, [0, 1], [0, 100 * project.speed])
 
   return (
-    <Link key={project.id} className="home-project" to={`/${project.type_path}/${project.id}`}>
+    
         <m.div
             initial={{opacity: 1}}
             animate={{opacity: 1}}
@@ -22,17 +22,21 @@ export default function Element({project}) {
                 scale: 1.1
             }}
             transition={{ duration: 0.3}}
-            // ref={ref} 
+            className="home-project"
+            key={project.id}
             >
+
             {/* cover images */}
-            <img ref={ref} src={project.cover_img} alt="" />
+            <Link to={`/${project.type_path}/${project.id}`}>
+                <img ref={ref} src={project.cover_img} alt="" />
+            </Link>
 
             {/* details on hover */}
             {/* <div className="hover-container d-flex flex-column justify-content-center">
                 <h4 className='f-pinyon'>{project.title}</h4>
                 <p className='f-prompt'>{project.type} 	• {project.date}</p>
             </div> */}
+            
         </m.div>
-    </Link>
   )
 }

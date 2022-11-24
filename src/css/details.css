@@ -12,7 +12,6 @@
     grid-column: 1;
     grid-row: 1;
     align-self: end;
-
 }
 
 .details-grid .logo {
@@ -23,6 +22,7 @@
     grid-column: 2;
     grid-row: 2 ;
     align-self: flex-start;
+    width: 58vw;
 }
 
 .details-grid .description {
@@ -45,6 +45,12 @@
 .main-img img{
     padding-top: 5vh;
     width: 80%;
+    max-height: 50vh;
+    object-fit: contain;
+}
+
+.details-header h2 {
+    white-space: pre;
 }
 
 .details-header .prev {
@@ -53,6 +59,7 @@
     border-style: solid;
     border-width: 0.6em 1.2em 0.6em 0;
     border-color: transparent black transparent transparent;
+    margin-top: 0.3em;
 }
 
 .details-header .next {
@@ -61,6 +68,7 @@
     border-style: solid;
     border-width: 0.6em 0 0.6em 1.2em;
     border-color: transparent transparent transparent black;
+    margin-top: 0.3em;
 }
 
 .prev.inactive {
@@ -74,13 +82,23 @@
 /*---- Description Grid - Details Page ----*/
 
 .des-grid {
-    margin-top: 15vh;
+    margin-top: 8vh;
     display: grid;
     grid-template-areas: 
     "type tools"
     "des lesson";
-    column-gap: 10em;
-    row-gap: 5em;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8vw;
+    row-gap: 5vw;
+}
+
+.des-grid h2 {
+    font-size: max(1.8vw, 18px);
+}
+
+.des-grid h4 {
+    font-size: max(1.5vw, 16px);
+    line-height: 1.5em;
 }
 
 .project-type {
@@ -107,4 +125,17 @@
 
 .details img {
     width: 100vw;
+}
+
+/*---- view website button - Details Page ----*/
+.details-button {
+    transform: translateX(19vw);
+    /* border: 0.13vw solid black;
+    width: 15vw;
+    height: 5vw;
+    border-radius: 50%; */
+}
+
+.details-button h5 {
+    font-size: 4vw;
 }

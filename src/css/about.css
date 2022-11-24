@@ -58,10 +58,12 @@
 /*------------- neath's info ------------- */
 
 .about-neath {
+    z-index: 9999;
     margin-top: -3vw;
 }
 
 .about-neath img {
+    
     width: 100%;
 }
 

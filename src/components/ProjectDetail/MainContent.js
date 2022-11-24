@@ -6,7 +6,7 @@ export const MainContent = ({project}) => {
 
   return (
     <>
-      <div className='d-flex justify-content-between align-items-center details-header text-center'>
+      <div className='d-flex justify-content-between details-header text-center'>
         {(project.prev_project) ? 
           <Link to={project.prev_project}>
             <div className="prev"></div>
@@ -19,7 +19,7 @@ export const MainContent = ({project}) => {
       </div>
       <h4 className='f-prompt fw-light text-center'>{project.date}</h4>
       <div className="d-flex justify-content-center main-img">
-        <img src={project.cover_img} alt={project.title}/>
+        <img src={project.main_img} alt={project.title}/>
       </div>
     </>
     

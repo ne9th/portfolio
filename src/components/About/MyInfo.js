@@ -16,7 +16,7 @@ export const MyInfo = () => {
         <div className="experience">
             <div className='info-text'> 
                 <h3><span>A Little Bit About:</span><br/>my experience</h3>
-                <p>In my first year of college, I worked as a graphic designer at my school. I made my first poster in Keynote... (since all of my previous design experience at the time were done on my phone...) Thankfully, my last poster was made in Illustrator and Photoshop.
+                <p>In my first year of college, I worked as a graphic designer at my school. I made my first poster in Keynote... (since my previous design experience at the time were done on my phone...) Thankfully, my last poster was made in Photoshop.
                 <br/><br/>
                 Fast forward to fall 2021, I worked full-time as a frontend web developer at a biotech startup and part-time as a UX/UI designer at a Northeastern student-led studio. To learn more about these experiences, please feel free to check out my <a href="" target="_blank" className='f-pinyon secondary-btn'>LinkedIn!</a>
                 </p>
@@ -28,7 +28,7 @@ export const MyInfo = () => {
         <div className="skills">
             <div className='info-text'> 
                 <h3><span>A Little Bit About:</span><br/>my skills</h3>
-                <p>The programming languages that I’ve worked with include: Java, Python, Ruby, JavaScript, TypeScript, HTML, and CSS. I also have experience with React V6 and Framer Motion (which this website is built with) and frameworks such as Bootstrap, TailwindCSS, and Material-UI. 
+                <p>The programming languages that I’ve worked with include: Java, Python, Ruby, JavaScript, TypeScript, HTML, and CSS. I also have experience with React V6, Framer Motion, Bootstrap, TailwindCSS, and Material-UI. 
                 <br/><br/>
                 As for design, I’ve worked with Illustrator, InDesign, Photoshop, XD, Figma, and Balsamiq. I hope this website showcases my design style/skills well!
                 </p>
@@ -40,9 +40,9 @@ export const MyInfo = () => {
         <div className="me">
             <div className='info-text'> 
                 <h3><span>A Little Bit About:</span><br/>me :D</h3>
-                <p>I was born and raised in Cambodia. I moved to the US when I was in middle school. I speak Khmer, English, and a bit of Korean. I love music, studio ghibli movies, crafts, photography, and cloudy (not gloomy) days! 
+                <p>I was born and raised in Cambodia. I moved to the US when I was in middle school. I speak Khmer, English, and a bit of Korean. Music is like a second home to me and I love studio ghibli movies, crafts, photography, and cloudy (not gloomy) days! 
                 <br/><br/>
-                After graduation, I decided to come to Cambodia to spend time with my family before adult responsibilities take that away :) So, hello from Phnom Penh!
+                After graduation, I decided to come to Cambodia to spend as much time as I could with my family before going back to start the official adult life :) So, hello from Phnom Penh!
                 </p>
             </div>
             <div className='info-img'>

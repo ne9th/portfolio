@@ -7,7 +7,7 @@
   margin-top: -90vh;
   z-index: 999;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 5vh 2vh repeat(51, 15vh);
+  grid-template-rows: 5vh 2vh repeat(49, 15vh);
 }
 
 /*---- N Logo ----*/
@@ -173,8 +173,6 @@ want the logo stay fixed on the page) ----*/
   width: 70%;
 }
 
-
-
 /*---- type poster ----*/
 .home-project:nth-child(13) {
   grid-row: 34;
@@ -193,35 +191,25 @@ want the logo stay fixed on the page) ----*/
   transform: rotate(-2deg);
 }
 
-/*---- remembering ----*/
+/*---- service day ----*/
 .home-project:nth-child(15) {
   grid-row: 40;
   grid-column: 1 / 6;
   width: 70%;
-}
-.home-project:nth-child(15) img {
-  transform: rotate(4deg);
-}
-
-/*---- service day ----*/
-.home-project:nth-child(16) {
-  grid-row: 44;
-  grid-column: 6 / 11;
-  width: 80%;
+  justify-self: end;
 }
 
 /*---- built by girls ----*/
-.home-project:nth-child(17) {
-  grid-row: 48;
-  grid-column: 3 / 5;
+.home-project:nth-child(16) {
+  grid-row: 46;
+  grid-column: 7 / 9;
   width: 80%;
-  justify-self: start;
 }
-.home-project:nth-child(17) img {
+.home-project:nth-child(16) img {
   transform: rotate(-13deg);
 }
 
-  
+
 /*---- Hover Container - Home Page ----*/
   
 .hover-container {
