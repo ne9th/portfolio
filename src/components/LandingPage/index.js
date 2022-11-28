@@ -1,16 +1,20 @@
 import React, { useRef } from 'react';
 import { ScrollingElements } from './ScrollingElements';
 import { HomeAbout } from './HomeAbout';
+import { Footer } from '../Footer'
 import { Nav } from '../Nav';
+import {motion as m} from 'framer-motion'
 
 export const LandingPage = () => {
 
     return(
         <div>
             <section>
-                <div>
+                <m.div initial={{opacity:0}} animate={{opacity:1}} 
+                transition={{duration: 0.8}}>
+                    <h3 className='f-meaculpa logo'>N</h3>
                     {<Nav/>}
-                </div>
+                </m.div>
                 <div className="projects-bg d-flex justify-content-center align-items-center">
                     <h1>
                         <span id='n'>n</span>
@@ -26,7 +30,7 @@ export const LandingPage = () => {
                 <HomeAbout/>
             </section>
             <footer>
-                <h4 className='f-syncopate fw-bold text-center'>Monineath Heng</h4>
+                <Footer/>
             </footer>
                 
         </div>

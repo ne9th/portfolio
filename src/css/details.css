@@ -15,7 +15,7 @@
 }
 
 .details-grid .logo {
-    margin: 0;
+    /* margin: 0; */
 }
 
 .details-grid .mainContent {
@@ -130,12 +130,16 @@
 /*---- view website button - Details Page ----*/
 .details-button {
     transform: translateX(19vw);
-    /* border: 0.13vw solid black;
-    width: 15vw;
-    height: 5vw;
-    border-radius: 50%; */
 }
 
 .details-button h5 {
     font-size: 4vw;
+}
+
+/*---- additional img - mfa ----*/
+#mfa_gif{
+    position: relative;
+    left: 50.2vw;
+    width: 25vw;
+    margin-bottom: 5vw;
 }

@@ -1,0 +1,6 @@
+.footer {
+    padding-bottom: 1.5vh;
+}
+.footer h6 {
+    font-size: max(1vw, 12px);
+}

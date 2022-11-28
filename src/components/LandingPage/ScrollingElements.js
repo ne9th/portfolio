@@ -8,12 +8,11 @@ export const ScrollingElements = () => {
 
     return(
         <div className='projects'>
-            <m.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration: 0.8}}>
-                <h3 className='f-meaculpa logo'>N</h3>
-            </m.div>
-            <div className="neath-header text-center f-prompt">
+            <m.div initial={{opacity:0}} animate={{opacity:1}} 
+            transition={{duration:0.8}}
+            className="neath-header text-center f-prompt">
                 <h3>Designer + Developer</h3>
-            </div>
+            </m.div>
             {projects.map((project) => <Element project={project}/>)}
         </div> 
     )

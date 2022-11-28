@@ -4,6 +4,7 @@ import  { projects } from '../projects.js'
 import { MainContent } from "./MainContent";
 import { Description } from "./Description";
 import { Details } from "./Details";
+import { Footer } from "../Footer"
 import {motion as m} from 'framer-motion';
 
 export const ProjectDetail = () => {
@@ -20,29 +21,28 @@ export const ProjectDetail = () => {
       }, [id]);
 
     return(
-        <div className="d-flex flex-column align-items-center">
-            <div className="details-grid">
-                <Link to='/' className="logo-wrapper">
-                    <m.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration: 0.6}}>
-                        <h3 className='f-meaculpa logo'>N</h3>
-                    </m.div>
-                </Link>
-                <div className="mainContent">
-                    {<MainContent project={project}/>}
+        <m.div 
+        initial={{opacity: 0}} animate={{opacity:1}} 
+        transition={{ duration: 0.5}}>
+            <Link to='/' className="logo-wrapper">
+                <h3 className='f-meaculpa logo'>N</h3>
+            </Link>
+            <div className="d-flex flex-column align-items-center">
+                <div className="details-grid">
+                    <div className="mainContent">
+                        {<MainContent project={project}/>}
+                    </div>
+                    <div className="description">
+                        {<Description project={project}/>}
+                    </div>
                 </div>
-                <div className="description">
-                    {<Description project={project}/>}
+                <div className="details">
+                    {<Details project={project}/>}
                 </div>
-            </div>
-            <div className="details">
-                {<Details project={project}/>}
             </div>
             <footer>
-                <div className="toTop">
-                    <p>top</p>
-                </div>
-                <h5 className="text-center f-prompt fw-light">Monineath Heng<br/>© 2022</h5>
+                <Footer/>
             </footer>
-        </div>
+        </m.div>
     )
 }

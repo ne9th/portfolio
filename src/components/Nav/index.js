@@ -13,6 +13,8 @@ export const Nav = () => {
             ease:"backOut"
     }};
 
+    const activeInitial = {y:20};
+
   return (
     <div className="nav-header d-flex justify-content-between fixed-top">
         
@@ -20,16 +22,17 @@ export const Nav = () => {
             <h3 className='f-meaculpa logo'>N</h3>
         </Link>
         <m.div 
-        initial={{ y: -130}} animate={{y:-50}} 
+        initial={{ y: -110}} 
+        animate={{y:-50}} 
         transition={{ 
             type:"spring",
             damping: 4, 
-            duration: 1,
-            ease: "easeOut"
+            ease: "easeInOut"
         }}
-        className="hanging-nav d-flex text-center me-5 pe-5">
+        className="hanging-nav d-flex text-center">
             <Link to="/about" >
                 <m.div 
+                    initial={loc.pathname === "/about" ? activeInitial : ""}
                     whileHover={onHover}
                     className='nav-item-wrapper d-flex flex-column align-items-center'>
                     <div className='vertical-line'/>
@@ -40,6 +43,7 @@ export const Nav = () => {
             </Link>
             <Link to="/hobbies">
                 <m.div 
+                    initial={loc.pathname === "/hobbies" ? activeInitial : ""}
                     whileHover={onHover} 
                     className='nav-item-wrapper d-flex flex-column align-items-center'>
                     <div className='vertical-line'/>

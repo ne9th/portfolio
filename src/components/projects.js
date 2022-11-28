@@ -57,7 +57,7 @@ export const projects = [
         "details_img": require("../images/uxui/nonblue/details.png"),
         "date": "Feb 2021",
         "tools": "Procreate, Figma",
-        "description": "I wrote and illustrated a children's book called nonblue for my design capstone class. this web prototype is one of the deliverables for my project. you can read the book in the demo linked below!",
+        "description": "I wrote and illustrated a children's book called \"nonblue\" for my design capstone class. this web prototype is one of the deliverables for my project. you can read the book in the demo linked below!",
         "lesson": "how to write a children's story (e.g. what part of speech/verb tense to use, what pattern children find engaging), how to illustrate cartoon characters",
         "link": "https://www.figma.com/proto/ccrGGIY4sM6ZMLMCCxQb56/Nonblue?node-id=3%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A3",
         "prev_project": "/design/pantone",
@@ -78,7 +78,7 @@ export const projects = [
         "lesson": "how to conduct interviews, benchmark against existing service, create personas, and define users' roles and goals, a bit about branding",
         "prev_project": "/uxui/nonblue",
         "next_project": "/webdev/plastic2048",
-        "speed": 4
+        "speed": 3.5
     },
     {
         "id": "plastic2048",
@@ -103,12 +103,11 @@ export const projects = [
         "type_path": "webdev",
         "type": "web dev",
         "cover_img": require("../images/webdev/portfolio22/cover.png"),
-        "details_img": "https://source.unsplash.com/random/800x1200",
+        "main_img": require("../images/webdev/portfolio22/cover.png"),
         "date": "Nov 2022",
         "tools": "HTML, CSS, JS, React, Bootstrap, Framer Motion ",
-        "description": "since I've grown and learned so much after my first portfolio, I decided to create an entirely new website that makes use of my current knowledge better.",
-        "lesson": "how to use Framer Motion for animation, gained a better understanding of React, and many many other lessons",
-        "link": "for web dev projects",
+        "description": "since I've grown and learned so much after my first portfolio, I decided to create an entirely new website where I can showcase my current knowledge better. just like my old portfolio, this project started with a prototype in Figma.",
+        "lesson": "how to use Framer Motion for animation, gained a better understanding of React amongst many many other lessons",
         "prev_project": "/design/plastic2048",
         "next_project": "/design/fromme",
         "speed": 4
@@ -137,6 +136,7 @@ export const projects = [
         "cover_img": require("../images/design/mfa/cover.png"),
         "main_img": require("../images/design/mfa/cover.png"),
         "details_img": require("../images/design/mfa/details.png"),
+        "additional_img": require("../images/design/mfa/mfa.gif"),
         "date": "Oct 2019",
         "tools": "InDesign, Illustration, Photoshop",
         "description": "a poster series inspired by an art piece from the Women Take the Floor exhibition at MFA Boston.",

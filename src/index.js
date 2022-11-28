@@ -5,6 +5,7 @@ import './css/home.css';
 import './css/details.css';
 import './css/about.css';
 import './css/hobbies.css';
+import './css/footer.css';
 import App from './App';
 import { BrowserRouter as Router } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
