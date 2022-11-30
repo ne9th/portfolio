@@ -1,0 +1,110 @@
+/*------------- grid containing image and full name ------------- */
+.img-name {
+    margin: 13vw 23vw;
+    display: grid;
+    grid-template-columns: repeat(6, 10vw);
+    grid-template-rows: repeat(3, 12vw);
+}
+
+.img-name h1 {
+    font-size: 6vw;
+    font-weight: bolder;
+    letter-spacing: -0.1em;
+    margin: 0;
+    margin-left: -0.4vw;
+}
+
+.img-name img {
+    width: 100%;
+    margin-left: -2vw;
+}
+
+.img-name .neath-img {
+    transform: rotate(-8deg);
+    align-self: center;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+}
+
+.img-name .first-name {
+    align-self: end;
+    z-index: 999;
+    grid-column: 3 / 6;
+    grid-row: 1;
+    margin-bottom: -4.5vw;
+}
+
+.img-name .first-name h2 {
+    font-size: 12vw;
+    font-weight: normal;
+    letter-spacing: normal;
+    margin: 0;
+    margin-top: -0.68em;
+    margin-left: 4.8vw;
+}
+
+.img-name .last-name {
+    align-self: center;
+    grid-column: 5 / 7;
+    grid-row: 2 / 4;
+}
+
+.img-name .last-name h5 {
+    margin: -0.5vw 0 0 0;
+    font-size: 2.5vw;
+    font-weight: lighter;
+}
+
+/*------------- neath's info ------------- */
+
+.about-neath {
+    z-index: 9999;
+    margin-top: -3vw;
+}
+
+.about-neath img {
+    width: 100%;
+}
+
+.info {
+    background-color: white;
+    padding: 0 17vw;
+}
+
+.info > div {
+    margin-bottom: 4vw;
+}
+
+.info-text h3 {
+    font-size: 1.8vw;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bolder;
+}
+
+.info-text span {
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.info-text p {
+    margin-top: 2vw;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    font-size: max(1.3vw, 15px);
+}
+
+/* sm screen */
+@media screen and (max-width: 575.98px) {
+}
+/* md screen */
+@media screen and (max-width: 767.98px) {
+}
+/* lg screen */
+@media (max-width: 991.98px) {  }
+
+/* xl screen */
+@media (max-width: 1199.98px) {  }
+
+/* xxl screen */
+@media (max-width: 1399.98px) {  }

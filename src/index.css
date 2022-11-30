@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF8E0 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+/*-- General Styles --*/
+
+.f-prompt {
+  font-family: 'prompt', sans-serif;
+}
+
+.f-syncopate {
+  font-family: 'syncopate', sans-serif;
+}
+
+.f-meaculpa {
+  font-family: 'Mea Culpa', cursive;
+}
+
+.f-pinyon {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.secondary-btn {
+  font-size: max(1.5em, 20px);
+}
+
+.secondary-btn:hover {
+  text-shadow: 0 0 0.2em #5BD719;
+}
+
+.no-pointer {
+  pointer-events: none;
+}
+
+/*-- N logo --*/
+
+.logo {
+  position: absolute;
+  font-size: max(3vw, 30px);
+  margin: 2em 2.5em;
+}
+
+.logo:hover {
+  text-shadow: 0 0 0.15em #5BD719;
+}
+
+/*--------------- nav header ---------------*/
+
+.hanging-nav {
+  position: relative;
+  top:0;
+  gap: 2vw;
+  margin-right: 8vw;
+}
+
+.hanging-nav .vertical-line {
+  height: 7em;
+  border-left: min(0.3vw, 2px) solid black;
+}
+
+.nav-item {
+  border: min(0.3vw, 2px) solid black;
+  padding: min(1vw, 0.5em);
+  border-radius: 1.5em;
+  backdrop-filter: blur(5px);
+}
+
+.nav-item.active, .nav-item:hover{
+  box-shadow: 0 0 0.3em #5BD719, 0 0 0.3em #5BD719 inset;
+}
+
+.nav-item.active h5, .nav-item:hover h5 {
+  text-shadow: 0 0 0.3em #5BD719;
+}
+
+.nav-item h5 {
+  font-size: max(1.3vw, 13px);
+  margin-bottom: 0;
+  font-weight: 500;
+}

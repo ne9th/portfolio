@@ -1,0 +1,145 @@
+/*-------------- Grid - Details Page --------------*/
+
+.details-grid {
+    display: grid;
+    place-items: center;
+    gap: 1em;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 8vw auto;
+}
+
+.details-grid .logo-wrapper {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+}
+
+.details-grid .logo {
+    /* margin: 0; */
+}
+
+.details-grid .mainContent {
+    grid-column: 2;
+    grid-row: 2 ;
+    align-self: flex-start;
+    width: 58vw;
+}
+
+.details-grid .description {
+    grid-column: 2;
+    grid-row: 3 ;
+}
+
+.details-grid .details {
+    grid-column: 1 / 3;
+    grid-row: 4 / 8 ;
+}
+
+.details-grid footer {
+    grid-column: 2;
+    grid-row: 8 ;
+}
+
+/*---- Header - Details Page ----*/
+
+.main-img img{
+    padding-top: 5vh;
+    width: 80%;
+    max-height: 50vh;
+    object-fit: contain;
+}
+
+.details-header h2 {
+    white-space: pre;
+}
+
+.details-header .prev {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.6em 1.2em 0.6em 0;
+    border-color: transparent black transparent transparent;
+    margin-top: 0.3em;
+}
+
+.details-header .next {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.6em 0 0.6em 1.2em;
+    border-color: transparent transparent transparent black;
+    margin-top: 0.3em;
+}
+
+.prev.inactive {
+    border-color: transparent gray transparent transparent;
+}
+
+.next.inactive {
+    border-color: transparent transparent transparent gray;
+}
+
+/*---- Description Grid - Details Page ----*/
+
+.des-grid {
+    margin-top: 8vh;
+    display: grid;
+    grid-template-areas: 
+    "type tools"
+    "des lesson";
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8vw;
+    row-gap: 5vw;
+}
+
+.des-grid h2 {
+    font-size: max(1.8vw, 18px);
+}
+
+.des-grid h4 {
+    font-size: max(1.5vw, 16px);
+    line-height: 1.5em;
+}
+
+.project-type {
+    grid-area: type;
+}
+
+.project-tools {
+    grid-area: tools;
+}
+
+.project-des {
+    grid-area: des;
+}
+
+.project-lesson {
+    grid-area: lesson;
+}
+
+/*---- Details Section - Details Page ----*/
+
+.details {
+    margin: 10vh 0;
+}
+
+.details img {
+    width: 100vw;
+}
+
+/*---- view website button - Details Page ----*/
+.details-button {
+    transform: translateX(19vw);
+}
+
+.details-button h5 {
+    font-size: 4vw;
+}
+
+/*---- additional img - mfa ----*/
+#mfa_gif{
+    position: relative;
+    left: 50.2vw;
+    width: 25vw;
+    margin-bottom: 5vw;
+}
