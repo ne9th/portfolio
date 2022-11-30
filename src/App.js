@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import 'aos/dist/aos.css';
 import { LandingPage } from './components/LandingPage';
 import { ProjectDetail } from './components/ProjectDetail';
 import { About } from './components/About';

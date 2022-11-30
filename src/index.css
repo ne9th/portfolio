@@ -51,7 +51,7 @@ a {
 }
 
 .secondary-btn:hover {
-  text-shadow: 0 0 0.1em #63d311;
+  text-shadow: 0 0 0.2em #5BD719;
 }
 
 .no-pointer {
@@ -67,7 +67,7 @@ a {
 }
 
 .logo:hover {
-  text-shadow: 0 0 0.1em #63d311;
+  text-shadow: 0 0 0.15em #5BD719;
 }
 
 /*--------------- nav header ---------------*/
@@ -92,11 +92,11 @@ a {
 }
 
 .nav-item.active, .nav-item:hover{
-  box-shadow: 0 0 0.2em #63d311, 0 0 0.2em #63d311 inset;
+  box-shadow: 0 0 0.3em #5BD719, 0 0 0.3em #5BD719 inset;
 }
 
 .nav-item.active h5, .nav-item:hover h5 {
-  text-shadow: 0 0 0.4em #63d311;
+  text-shadow: 0 0 0.3em #5BD719;
 }
 
 .nav-item h5 {
