@@ -7,7 +7,7 @@ export const MyInfo = () => {
         <div className="education">
             <div className='info-text'> 
                 <h3><span>A Little Bit About:</span><br/>my education</h3>
-                <p>I finished my combined Computer Science and Design bachelor’s degree at Northeastern University in May 2022. Throughout my 4 years of college, I spent 1.5 years commuting and 1.5 years online (due to the pandemic). The journey was definitely not easy, but I’m glad I made it!</p>
+                <p>I finished my combined Computer Science and Design bachelor’s degree at Northeastern University in May 2022. Throughout my 4 years of college, I spent 1.5 years commuting and 2 years online (due to the pandemic). The journey was definitely not easy, but I’m glad I made it!</p>
             </div>
             <div className='info-img'>
                 <img/>
