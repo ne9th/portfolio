@@ -134,7 +134,7 @@ export const projects = [
         "type_path": "design",
         "type": "graphic design",
         "cover_img": require("../images/design/mfa/cover.png"),
-        "main_img": require("../images/design/mfa/cover.png"),
+        "main_img": require("../images/design/mfa/main.png"),
         "details_img": require("../images/design/mfa/details.png"),
         "additional_img": require("../images/design/mfa/mfa.gif"),
         "date": "Oct 2019",
