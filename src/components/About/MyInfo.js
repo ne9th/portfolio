@@ -28,7 +28,7 @@ export const MyInfo = () => {
         <div className="skills">
             <div className='info-text'> 
                 <h3><span>A Little Bit About:</span><br/>my skills</h3>
-                <p>The programming languages that I’ve worked with include: Java, Python, Ruby, JavaScript, TypeScript, HTML5, and CSS 3. I also have experience with React V6, Framer Motion, Bootstrap V5.2, TailwindCSS, and Material-UI. 
+                <p>The programming languages that I’ve worked with include: Java, Python, Ruby, JavaScript, TypeScript, HTML5, and CSS3. I also have experience with React V6, Framer Motion, Bootstrap V5.2, TailwindCSS, and Material-UI. 
                 <br/><br/>
                 As for design, I’ve worked with Illustrator, InDesign, Photoshop, XD, Figma, and Balsamiq. I hope this website showcases my design style/skills well. I still have a lot to learn, but I'm so excited for this journey!
                 </p>
