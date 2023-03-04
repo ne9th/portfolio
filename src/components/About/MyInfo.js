@@ -18,7 +18,7 @@ export const MyInfo = () => {
                 <h3><span>A Little Bit About:</span><br/>my experience</h3>
                 <p>In my first year of college, I worked as a graphic designer at my school. I made my first poster in Keynote...(since my previous design experience at the time was all done on my phone) Thankfully, my last poster there was made in Photoshop.
                 <br/><br/>
-                Fast forward to fall 2021, I worked full-time as a frontend web developer at a biotech startup and part-time as a UX/UI designer at a Northeastern student-led studio. To learn more about these experiences, please feel free to check out my <a href="https://www.linkedin.com/in/monineathheng/" target="_blank" className='f-pinyon secondary-btn'>LinkedIn!</a>
+                Fast forward to fall 2021, I worked full-time as a frontend web developer at a biotech startup and part-time as a UX/UI designer at a Northeastern student-led product development studio. To learn more about these experiences, please feel free to check out my <a href="https://www.linkedin.com/in/monineathheng/" target="_blank" className='f-pinyon secondary-btn'>LinkedIn!</a>
                 </p>
             </div>
             <div className='info-img'>
