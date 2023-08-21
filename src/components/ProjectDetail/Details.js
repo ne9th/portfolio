@@ -17,7 +17,7 @@ export const Details = ({project}) => {
         </div> : <></>
       }
       {(project.additional_img) ? 
-        <img src={project.additional_img} alt={`${project.title}'s additional image`} id="mfa_gif"/> : <></>}
+        <img src={project.additional_img} alt={`${project.title}'s additional image`} id={project.id === "mfa" ? "mfa_gif" : ""}/> : <></>}
     </>
   )
 }

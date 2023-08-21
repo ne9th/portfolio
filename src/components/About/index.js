@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import profilePic from '../../images/neath.png';
-import infoBg from '../../images/paper.png'
+import profilePic from '../../images/neath.webp';
+import infoBg from '../../images/paper.webp'
 import { MyInfo } from './MyInfo';
 import { Footer } from '../Footer';
 import { Nav } from '../Nav';

@@ -42,7 +42,7 @@ export const Hobbies = () => {
           </m.div>
         </div>
         <div className='caption-wrapper d-flex justify-content-center mt-4'>
-          <p className='caption text-center f-prompt'>please excuse the construction! the developer (neath) has been occupied with auntie/nanny duties for the past months. your understanding is appreciated!</p> 
+          <p className='caption text-center f-prompt'>please excuse the construction! neath is busy working on another exciting web project at the moment!</p> 
           {/* temporary footer */}
           <div className='hobbies-footer'>
             <h6 className='text-center f-prompt fw-light'>ⓒ 2022 Monineath Heng</h6>
